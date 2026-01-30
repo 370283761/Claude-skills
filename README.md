@@ -6,14 +6,42 @@
 
 ### 安装
 
+#### Mac / Linux
+
 ```bash
 git clone https://github.com/370283761/Claude-skills.git ~/.claude/skills/team
 ```
 
+#### Windows
+
+**PowerShell:**
+```powershell
+git clone https://github.com/370283761/Claude-skills.git $env:USERPROFILE\.claude\skills\team
+```
+
+**CMD:**
+```cmd
+git clone https://github.com/370283761/Claude-skills.git %USERPROFILE%\.claude\skills\team
+```
+
 ### 更新
+
+#### Mac / Linux
 
 ```bash
 cd ~/.claude/skills/team && git pull
+```
+
+#### Windows
+
+**PowerShell:**
+```powershell
+cd $env:USERPROFILE\.claude\skills\team; git pull
+```
+
+**CMD:**
+```cmd
+cd %USERPROFILE%\.claude\skills\team && git pull
 ```
 
 ## 可用 Skills
